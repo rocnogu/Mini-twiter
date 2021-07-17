@@ -12,10 +12,6 @@ import AllMessages from "./AllMessages";
 import Login from "./Login";
 
 //
-// const user = usersData.find((u) => u.id == user_id);
-//
-
-//
 export default function App() {
   //
   const [result, setResult] = useState(usersData);
