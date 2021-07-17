@@ -19,7 +19,7 @@ export default function Login() {
       setTimeout(() => resolve(Math.random() > 0.5 ? 200 : 401), 2000);
     });
   };
-  const handleLoginRequestOLD = async () => {
+  const handleLoginRequestOLD = async (event) => {
     event.preventDefault();
     setLoggedIn(AUTH.LOGIN_PENDING);
     const result = await login();
@@ -35,7 +35,7 @@ export default function Login() {
         setLoggedIn(AUTH.NOT_LOGGED_IN);
     }
   };
-  const handleLoginRequest = () => {
+  const handleLoginRequest = (event) => {
     event.preventDefault();
     setLoggedIn(AUTH.LOGIN_PENDING);
     login().then((result) => {
