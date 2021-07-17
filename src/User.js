@@ -1,5 +1,4 @@
 import React from "react";
-import SearchBar from "./SearchBar";
 import usersData from "./USERS.json";
 //
 export default function User({ userDetails }) {

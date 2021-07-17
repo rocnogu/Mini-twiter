@@ -1,6 +1,6 @@
 import msgData from "./MSSG.json";
 import usersData from "./USERS.json";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import React from "react";
 //
 export default function AllMessages() {

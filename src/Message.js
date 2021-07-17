@@ -1,7 +1,6 @@
-import msgData from "./MSSG.json";
-import usersData from "./USERS.json";
-import { useState, useEffect } from "react";
-import React from "react";
+
+import React, { useState, useEffect } from "react";
+import ReactDOM from 'react-dom';
 //
 export default function Message() {
   const [message, setMessage] = useState();

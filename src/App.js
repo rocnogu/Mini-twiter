@@ -1,7 +1,7 @@
 import "./index.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ReactDOM, { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Users from "./Users";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import User from "./User";
 import UserMessages from "./UserMessages";
 import Message from "./Message";
@@ -10,7 +10,6 @@ import usersData from "./USERS.json";
 import SearchBar from "./SearchBar";
 import AllMessages from "./AllMessages";
 import Login from "./Login";
-
 //
 export default function App() {
   //
